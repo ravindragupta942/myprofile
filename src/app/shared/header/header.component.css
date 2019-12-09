@@ -1,0 +1,51 @@
+.header{
+    background: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.header-list{
+    list-style-type: none;
+    color: white;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.header-list li{
+    display: inline-block;
+    padding: 30px;
+    cursor: pointer;
+} 
+
+.material-icons{
+  font-size: 40px;
+} 
+  
+.theme-picker{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    margin: 6px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+.theme-first{
+    background: rgb(103, 58, 183);
+    height: 100%;
+}
+.theme-second{
+    background: rgb(233, 30, 99);
+    height: 100%;
+}
+.theme-third{
+    background: rgb(63, 81, 181);
+    height: 100%;
+}
+.theme-fourth{
+    background: rgb(21, 105, 97);
+    height: 100%;
+}

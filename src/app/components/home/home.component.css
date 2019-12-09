@@ -1,0 +1,35 @@
+.home-header{
+    background-image: url('~/assets/images/back.jpg');
+    background-size: cover;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('~/assets/fonts/Oswald/static/Oswald-Medium.ttf');
+  }
+
+  @font-face {
+    font-family: Julius;
+    src: url('~/assets/fonts/Poiret_One/PoiretOne-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: Allerta;
+    src: url('~/assets/fonts/Allerta_Stencil/AllertaStencil-Regular.ttf');
+  }
+
+.my-name{
+    font-size: 60px;
+    color: white;
+    font-family: Allerta;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.myNameContain{
+    width: 40%;
+}
+.description{
+    font-family: Julius;
+    color: white;
+    margin-top: 0px;
+}

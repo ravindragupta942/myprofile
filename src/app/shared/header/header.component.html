@@ -1,0 +1,27 @@
+<mat-grid-list cols="1" class="header" rowHeight="100">
+    <mat-grid-tile class="mat-grids">
+        <ul class="header-list">
+            <li>Home</li>
+            <li>Portfolio</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+            <li>
+                <button mat-button [matMenuTriggerFor]="menu"><i class="material-icons">color_lens</i></button>
+                <mat-menu #menu="matMenu" class="matMenu">
+                    <div class="theme-picker">
+                        <div class="theme-first"></div>
+                    </div>
+                    <div class="theme-picker">
+                        <div class="theme-second"></div>
+                    </div>
+                    <div class="theme-picker">
+                        <div class="theme-third"></div>
+                    </div>
+                    <div class="theme-picker">
+                        <div class="theme-fourth"></div>
+                    </div>
+                </mat-menu>
+            </li>
+        </ul>
+    </mat-grid-tile>
+</mat-grid-list>
